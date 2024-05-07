@@ -1,0 +1,103 @@
+/* .box{
+    width: 150px;
+    height: 150px;
+    background-color: seagreen;
+    border-radius: 20px;
+    transition-property: background-color, border-radius;
+    transition-duration: 1500ms;
+    transition-timing-function: linear;
+     transition-delay: 1000ms; 
+}
+.box:hover{
+    background-color: salmon;
+    border-radius: 70px;
+} */ 
+/* .box{
+    background-color: khaki;
+    width: 250px;
+    height: 250px;
+    border-radius: 60px;
+    transition-property: background-color, border-radius;
+    transition-duration: 2s;
+}
+.box:hover{
+background-color: olive;
+border-radius: 0px;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(250, 174, 174);
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px;
+    transition-property: background-color, color;
+    transition-duration: 2000ms;
+    transition-timing-function: linear; 
+}
+.btn:hover{
+    background-color: palevioletred;
+    color: blueviolet;
+}
+.wrap{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 90px;
+    transition-property: background-color, transform;
+    transition-duration: 1000ms;
+    transition-timing-function: ease; 
+}
+.wrap:hover{
+    background-color: rgb(73, 82, 247);
+    transform: translate(50px, -50px);
+} */
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 100px;
+    background-color: rebeccapurple;
+    transition-property: transform;
+    transition-duration: 2000ms;
+}
+.box:hover{
+    /* transform: scale(1.5);
+    transform: scale(0.6); */
+    /* transform: rotate(100deg);
+    
+} */
+/* .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.img{
+    width: 150px;
+    transition-property: transform;
+    transition-duration: 3000ms;
+}
+.img:hover{
+    transform: scale(1.5);
+} */
+
+.wrap{
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+    border-radius: 30px;
+    transition-property: transform, background-color;
+    transition-duration: 5000ms;
+    transition-delay: 2s, 0s;
+}
+.wrap:hover{
+    transform: rotate(360deg);
+    background-color: aqua;
+}
