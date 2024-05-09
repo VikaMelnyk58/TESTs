@@ -1,28 +1,32 @@
-/* .box{
+.box-one{
     width: 150px;
     height: 150px;
     background-color: seagreen;
     border-radius: 20px;
-    transition-property: background-color, border-radius;
+    transition-property: background-color, border-radius, ;
     transition-duration: 1500ms;
     transition-timing-function: linear;
      transition-delay: 1000ms; 
+     margin: 60px;
 }
-.box:hover{
+.box-one:hover{
     background-color: salmon;
     border-radius: 70px;
-} */ 
-/* .box{
+    
+}  
+.box{
     background-color: khaki;
     width: 250px;
     height: 250px;
     border-radius: 60px;
-    transition-property: background-color, border-radius;
+    transition-property: background-color, border-radius, transform;
     transition-duration: 2s;
+    margin: 60px;
 }
 .box:hover{
 background-color: olive;
 border-radius: 0px;
+transform: scale(0.6);
 }
 .btn{
     width: 250px;
@@ -35,15 +39,16 @@ border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
     margin: 40px;
-    transition-property: background-color, color;
-    transition-duration: 2000ms;
+    transition-property: background-color, color, transform;
+    transition-duration: 1000ms;
     transition-timing-function: linear; 
 }
 .btn:hover{
     background-color: palevioletred;
     color: blueviolet;
+    transform: scale(1.2);
 }
-.wrap{
+.wrap-one{
     width: 200px;
     height: 200px;
     background-color: skyblue;
@@ -54,27 +59,27 @@ border-radius: 0px;
     transition-duration: 1000ms;
     transition-timing-function: ease; 
 }
-.wrap:hover{
+.wrap-one:hover{
     background-color: rgb(73, 82, 247);
     transform: translate(50px, -50px);
-} */
+    
+}
 
-/* .box{
+ .box-two{
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 100px;
     background-color: rebeccapurple;
-    transition-property: transform;
-    transition-duration: 2000ms;
+    transition-property: transform, background-color, border-radius;
+    transition-duration: 7000ms;
 }
-.box:hover{
-    /* transform: scale(1.5);
-    transform: scale(0.6); */
-    /* transform: rotate(100deg);
-    
-} */
-/* .wrap{
+.box-two:hover{
+    transform: rotate(360deg);
+    background-color: blue;
+    border-radius: 50%;
+} 
+.wrap{
     display: flex;
     flex-wrap: wrap;
     gap:30px;
@@ -83,12 +88,13 @@ border-radius: 0px;
     width: 150px;
     transition-property: transform;
     transition-duration: 3000ms;
+    margin: 60px;
 }
 .img:hover{
     transform: scale(1.5);
-} */
+}
 
-.wrap{
+.wrap-two{
     width: 200px;
     height: 200px;
     background-color: slateblue;
@@ -96,8 +102,9 @@ border-radius: 0px;
     transition-property: transform, background-color;
     transition-duration: 5000ms;
     transition-delay: 2s, 0s;
+    margin: 60px;
 }
-.wrap:hover{
+.wrap-two:hover{
     transform: rotate(360deg);
     background-color: aqua;
 }
